@@ -1,4 +1,4 @@
-public class App4_3_1  {
+public class App4_3_1 {
     // 定数の宣言
     public static final int ERROR_READ    = 1;      // 読み込みエラー
     public static final int ERROR_WRITE   = 2;      // 書き込みエラー
@@ -15,7 +15,7 @@ public class App4_3_1  {
         if ( error == ERROR_READ ) {
             System.out.println("読み込みエラーが発生しました。");
         }
-        else if (error == ERROR_WRITE ) {
+        else if ( error == ERROR_WRITE ) {
             System.out.println("書き込みエラーが発生しました。");
         }
     }
